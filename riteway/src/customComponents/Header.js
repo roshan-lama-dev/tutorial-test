@@ -38,6 +38,7 @@ export const Header = () => {
     // }
 
     setActiveLink(link);
+    console.log(activeLink);
   };
 
   return (
