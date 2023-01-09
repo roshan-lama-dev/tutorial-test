@@ -6,7 +6,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row>
-          <Col></Col>
+          <Col>Hello</Col>
         </Row>
       </Container>
     </section>
