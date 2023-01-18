@@ -19,7 +19,10 @@ export const Contact = () => {
     setFormDetails({ ...formDetails, [category]: value });
   };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // window.confirm("Hello");
+  };
   return (
     <section className="contact" id="contact">
       <Container>
